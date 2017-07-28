@@ -1,0 +1,12 @@
+third/
+bin/
+pkg/
+log/
+src/github.com/
+src/golang.org/
+src/google.golang.org/
+src/gopkg.in/
+src/rta_proto/
+.idea/
+output/
+data/
