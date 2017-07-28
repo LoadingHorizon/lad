@@ -28,6 +28,14 @@ function install_protoc() {
 function install_go_dependency() {
     # go get -v -u github.com/emirpasic/gods
     go get -v -u github.com/siddontang/go-mysql
+    go get -v -u github.com/go-sql-driver/mysql &&
+    go get -v -u github.com/jmoiron/sqlx &&
+    go get -v -u github.com/juju/errors &&
+    go get -v -u github.com/ngaut/log &&
+    go get -v -u github.com/pingcap/check &&
+    go get -v -u github.com/satori/go.uuid &&
+    go get -v -u github.com/siddontang/go &&
+    go get -v -u golang.org/x/net &&
     # go get -v -u github.com/golang/protobuf/proto github.com/golang/protobuf/protoc-gen-go &&
     # go get -v -u google.golang.org/grpc &&
     go get -v -u github.com/cihub/seelog &&
@@ -40,6 +48,7 @@ function install_go_dependency() {
     # go get -v -u github.com/garyburd/redigo/redis &&
     # go get -v -u github.com/chasex/redis-go-cluster &&
     # go get -v -u gopkg.in/gin-gonic/gin.v1 &&
+    go get -v -u github.com/BurntSushi/toml &&
     go get -v -u gopkg.in/alecthomas/kingpin.v2 &&
     info "install go dependency success" && return 0
     warn "install go dependency fail" && return 255
