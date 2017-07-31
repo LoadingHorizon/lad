@@ -30,6 +30,7 @@ function install_go_dependency() {
     go get -v -u github.com/siddontang/go-mysql
     go get -v -u github.com/siddontang/go
     go get -v -u golang.org/x/net
+    go get -v -u github.com/BurntSushi/toml &&
     go get -v -u github.com/go-sql-driver/mysql &&
     go get -v -u github.com/jmoiron/sqlx &&
     go get -v -u github.com/juju/errors &&

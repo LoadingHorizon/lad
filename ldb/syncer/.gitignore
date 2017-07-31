@@ -10,3 +10,6 @@ src/rta_proto/
 .idea/
 output/
 data/
+syncpoint.txt
+syncpoint.txt.bk
+syncer

@@ -5,6 +5,9 @@
     "host": "127.0.0.1",
     "port": 3306,
     "user": "hatlonely",
-    "password": "keaiduo1"
-  }
+    "password": "keaiduo1",
+    "database": "lad",
+    "tables": ["advertiser", "publisher"]
+  },
+  "syncpoint": "syncpoint.txt"
 }
